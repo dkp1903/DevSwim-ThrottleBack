@@ -39,6 +39,9 @@
                 android:layout_centerInParent = "true"/>
 
         </RelativeLayout>
+            <!--Recycler View is used to create lists
+            It is efficient for scrolling through large
+            datasets-->
             <android.support.v7.widget.RecyclerView
                 android:id = "@+id/navigation_recycler_view"
                 android:layout_width = "match_parent"
